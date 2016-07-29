@@ -1,15 +1,90 @@
-body {
-	background-color: #F0F8FF;
-}
-h1 {
+h1{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 175%;
+	font-weight: bold;
+	text-align: center;
+	color: #696969;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 125%;
 	font-weight: bold;
 	color: #FF8C00;
 }
 
+div {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #A9A9A9;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
 	color: #4B0082;
+ }
+
+ *{
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .box1a{
+  	position: absolute;
+  	left: 300px;
+  	text-align: center;
+  	width: 100px;
+ 	padding: 5px;
+ 	border: 1px solid #696969;
+ 	/** background-color: **/
+ }
+
+  .box1b{
+  	position: absolute;
+  	left: 300px;
+  	text-align: center;
+  	width: 100px;
+ 	padding: 5px;
+ 	border: 1px solid #696969;
+ 	/** background-color: **/
+ }
+
+  .box1c{
+  	position: absolute;
+  	left: 300px;
+  	text-align: center;
+  	width: 100px;
+ 	padding: 5px;
+ 	border: 1px solid #696969;
+ 	/** background-color: **/
+ }
+
+ .box2a{
+ 	width: 400px;
+ 	padding: 10px;
+ 	padding-top: 40px;
+ 	border: 1px solid #696969;
+  	margin-bottom: 25px;
+  	/** background-color: **/
+ }
+
+  .box2b{
+ 	width: 400px;
+ 	padding: 10px;
+ 	padding-top: 40px;
+ 	border: 1px solid #696969;
+  	margin-bottom: 25px;
+  	/** background-color: **/
+ }
+
+ .box2c{
+ 	width: 400px;
+ 	padding: 10px;
+ 	padding-top: 40px;
+ 	border: 1px solid #696969;
+  	margin-bottom: 25px;
+  	/** background-color: **/
  }
