@@ -9,6 +9,7 @@ h1{
 	font-size: 175%;
 	font-weight: bold;
 	text-align: center;
+  text-shadow: 1.5px 1.5px #000000;
 	color: #696969;
 }
 
@@ -17,22 +18,24 @@ h2 {
   text-align: center;
 	font-size: 125%;
 	font-weight: bold;
-	color: #FF8C00;
+	color: #FFF8DC;
   width: 100px;
   padding: 10px;
   position: relative;
   float: right;
   overflow: hidden;
   margin: 0 10px 0 0;
+  text-shadow: 1.5px 1.5px #BDB76B;
 }
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-	color: #4B0082;
+	color: #FFFAF0;
   margin: 0 10px 20px;
   padding: 15px;
   padding-top: 55px;
+  line-height: 140%;
 }
 
 section {
@@ -49,40 +52,41 @@ section {
 }
 
 .box1a {
- 	border: 1px solid #696969;
- 	/** background-color: **/
+ 	border: 1px solid #8B4513;
+ 	background-color: #00008B;
 }
 
 .box1b {
- 	border: 1px solid #696969;
- 	/** background-color: **/
+ 	border: 1px solid #8B4513;
+ 	background-color: #006400;
 }
 
 .box1c {
- 	border: 1px solid #696969;
- 	/** background-color: **/
+ 	border: 1px solid #8B4513;
+ 	background-color: #FF8C00;
 }
 
 .box2a {
- 	border: 1px solid #696969;
-  /** background-color: **/
+ 	border: 1px solid #8B4513;
+  background-color: #ADD8E6;
 }
 
 .box2b {
- 	border: 1px solid #696969;
-  /** background-color: **/
+ 	border: 1px solid #8B4513;
+  background-color: #90EE90;
 }
 
 .box2c {
- 	border: 1px solid #696969;
-  /** background-color: **/
+ 	border: 1px solid #8B4513;
+  background-color: #FFA07A;
 }
 
 .end {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 90%;
+  font-style: italic;
   text-align: center;
-  color: #A9A9A9;
+  color: #B0C4DE;
   margin-bottom: 20px;
 }
 
