@@ -1,6 +1,6 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #F0FFFF;
 	background-color: #778899;
 }
@@ -49,34 +49,37 @@ body {
 
 /*** MAIN CONTENT ***/
 #main-content-title {
-	font-size: 2.25em;
+	font-size: 2em;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-shadow: 1.5px 1.5px #FFE4C4;
 	margin: 5px 0 5px;
 }
 .intro {
-	font-size: 1.25em;
+	font-size: 1.1em;
 	text-align: center;
   	color: #FFD700;
   	margin-bottom: 5px;
 }
 .row {
-	height: 1120px;
+	height: 1000px;
 }
 #title-chicken {
 	font-size: 1.5em;
  	background-color: #00008B;
+ 	padding: 5px;
  	margin-bottom: 0;
 }
 #title-beef {
 	font-size: 1.5em;
  	background-color: #006400;
+ 	padding: 5px;
  	margin-bottom: 0;
 }
 #title-seafood {
 	font-size: 1.5em;
  	background-color: #FF8C00;
+ 	padding: 5px;
  	margin-bottom: 0;
 }
 .about-chicken {
@@ -97,3 +100,11 @@ body {
 #back {
 	text-decoration: underline;
 }
+.end {
+	font-size: 90%;
+  	font-style: italic;
+  	text-align: center;
+  	color: #B0C4DE;
+  	margin-bottom: 20px;
+}
+/*** END OF MAIN CONTENT ***/
