@@ -1,0 +1,99 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color: #F0FFFF;
+	background-color: #778899;
+}
+
+/*** HEADER ***/
+#header-nav {
+	background-color: #2F4F4F;
+	border-radius: 0;
+	border: 0;
+	padding: 25px;
+}
+.navbar-brand h1 { /**Restaurant name**/
+	font-family: 'Jura', sans-serif;
+	color: #ADFF2F;
+	font-size: 2.5em;
+	font-weight: bolder;
+	text-shadow: 1.5px 1.5px #000000;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: 0.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /**Restaurant name**/
+	text-decoration: none;
+}
+#nav-list { /**nav menu button**/
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #FFFAF0;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #FFD700;
+}
+.navbar-header button.navbar-toggle, .navbar-header .iconbar {
+	border: 1px solid #F0FFFF;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+#collapsable-nav a { /**to collapse glyphicon for nav menu**/
+	font-size: 1.25em;
+}
+/*** END OF HEADER ***/
+
+/*** MAIN CONTENT ***/
+#main-content-title {
+	font-size: 2.25em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: 1.5px 1.5px #FFE4C4;
+	margin: 5px 0 5px;
+}
+.intro {
+	font-size: 1.25em;
+	text-align: center;
+  	color: #FFD700;
+  	margin-bottom: 5px;
+}
+.row {
+	height: 1120px;
+}
+#title-chicken {
+	font-size: 1.5em;
+ 	background-color: #00008B;
+ 	margin-bottom: 0;
+}
+#title-beef {
+	font-size: 1.5em;
+ 	background-color: #006400;
+ 	margin-bottom: 0;
+}
+#title-seafood {
+	font-size: 1.5em;
+ 	background-color: #FF8C00;
+ 	margin-bottom: 0;
+}
+.about-chicken {
+ 	background-color: #ADD8E6;
+ 	height: auto;
+ 	padding: 5px 10px 10px;
+}
+.about-beef {
+  	background-color: #90EE90;
+  	height: auto;
+  	padding: 5px 10px 10px;
+}
+.about-seafood {
+  	background-color: #FFA07A;
+  	height: auto;
+  	padding: 5px 10px 10px;
+}
+#back {
+	text-decoration: underline;
+}
